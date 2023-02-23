@@ -381,6 +381,7 @@ audio::-webkit-media-controls-enclosure {
 #curatedPlaylists ::-webkit-scrollbar-thumb {
     background: #0d8dfb; 
     border-radius: 5px;
+}
 /*h3 {
   padding: 5px 10px;
   text-align: center;
