@@ -102,77 +102,6 @@ input:checked ~ label span:after {
 input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps) span:after {
     top: 0;
 }
-
-@media screen and (min-width:834px) {
-    ul {
-        overflow: visible;
-        position: absolute;
-        top: 0;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    }
-    label span, input {
-        display: none;
-    }
-   body{
-        min-width: 834px;
-    }
-    #home{
-        text-transform: capitalize;
-        font-variant: small-caps;
-        font-weight: bold;
-        font-size: 1.25em;
-        position: static;
-    }
-    li {
-        margin: 0px auto; 
-        display: inline-block;
-    }
-    header{
-        padding-bottom: 50px;
-    }
-    .playlists{
-        display: grid; 
-        grid-template-columns: 1fr 1fr;
-        min-width: 834px;
-      }
-    #yourPlaylists {
-        grid-column: 1 / span 1;
-        min-width: 417px;
-        padding-top: 45px;
-      }
-    #curatedPlaylists {
-       grid-column: 2 / span 1;
-        min-width: 417px;
-  }
-  .yourPlaylists {
-    display: list-item;
-    list-style-type: none;
-    height: 400px;
-    overflow-x: hidden;
-    overflow-y: auto;
-  }
-  .curatedPlaylists {
-    display: list-item;
-    list-style-type: none;
-    height: 400px;
-    overflow-x: hidden;
-    overflow-y: auto;
-  }
-  button {
-    float: right;
-  }
-  .yourPlaylists .yourItem {
-    background: #2699FB;
-    margin: 10px 0;
-  }
-  .curatedPlaylists .curatedItem {
-    background: #020659;
-    margin: 10px 0;
-  }
-  .playlists img {
-    margin: 0 auto;
-}
 /*end menu code*/
 
 
@@ -387,4 +316,73 @@ audio::-webkit-media-controls-enclosure {
   text-align: center;
   wait until complete more
 }*/
-
+@media screen and (min-width:834px) {
+  ul {
+      overflow: visible;
+      position: absolute;
+      top: 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  label span, input {
+      display: none;
+  }
+ body{
+      min-width: 834px;
+  }
+  #home{
+      text-transform: capitalize;
+      font-variant: small-caps;
+      font-weight: bold;
+      font-size: 1.25em;
+      position: static;
+  }
+  li {
+      margin: 0px auto; 
+      display: inline-block;
+  }
+  header{
+      padding-bottom: 50px;
+  }
+  .playlists{
+      display: grid; 
+      grid-template-columns: 1fr 1fr;
+      min-width: 834px;
+    }
+  #yourPlaylists {
+      grid-column: 1 / span 1;
+      min-width: 417px;
+      padding-top: 45px;
+    }
+  #curatedPlaylists {
+     grid-column: 2 / span 1;
+      min-width: 417px;
+}
+.yourPlaylists {
+  display: list-item;
+  list-style-type: none;
+  height: 400px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.curatedPlaylists {
+  display: list-item;
+  list-style-type: none;
+  height: 400px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+button {
+  float: right;
+}
+.yourPlaylists .yourItem {
+  background: #2699FB;
+  margin: 10px 0;
+}
+.curatedPlaylists .curatedItem {
+  background: #020659;
+  margin: 10px 0;
+}
+.playlists img {
+  margin: 0 auto;
+}
