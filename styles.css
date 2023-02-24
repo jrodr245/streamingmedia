@@ -136,7 +136,7 @@ nav li a {
   padding: 10px 0 px;
   text-align: center;
   text-decoration: none;
-  list-style-type: none;/*do i need this?*/
+  list-style-type: none;
   font-size: 1em;
 }
 a:hover {
@@ -160,7 +160,7 @@ p {
   font-size: 1em;
 }
 #trending {
-  background: white; /*background-color?*/
+  background: white; 
   margin: 0px;
   padding: 65px 0px;
 }
@@ -169,6 +169,10 @@ h2 {
   font-size: 1em;
   font-weight: bold;
   text-transform: uppercase;
+}
+h3 {
+  padding: 5px 10px;
+  text-align: center;
 }
 .trendingList {
   display: grid;
@@ -193,9 +197,6 @@ dt {
   font-size: 1em;
   font-style: italic;
 }
-dd {
-
-}
 audio {
   position: absolute;
   bottom: 150px;
@@ -216,7 +217,7 @@ button:hover {
   border-radius: 5px;
 }
 #yourPlaylists {
-  background-color:white;/*just background? */
+  background-color:white;
 }
 .yourPlaylists {
   background-color: #0d8dfb;
@@ -311,11 +312,7 @@ audio::-webkit-media-controls-enclosure {
     background: #0d8dfb; 
     border-radius: 5px;
 }
-/*h3 {
-  padding: 5px 10px;
-  text-align: center;
-  wait until complete more
-}*/
+
 @media screen and (min-width:834px) {
   ul {
       overflow: visible;
@@ -385,4 +382,5 @@ button {
 }
 .playlists img {
   margin: 0 auto;
+}
 }
